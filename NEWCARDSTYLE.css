@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+h1{
+    text-align: center;
+    background: linear-gradient(to right,red,violet);
+    
+}
+.card1{
+
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: medium;
+    font-style: oblique;
+    box-shadow: 5px 5px 5px red;
+    margin-left: 20px;
+    cursor: pointer;
+    
+    
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.lionp{
+    margin-top: 20px;
+    color: red;
+}
+.lionp:hover{
+    background-color:black;
+    padding: 10px;
+
+}
+#lionimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+.card2{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: medium;
+    font-style: oblique;
+    box-shadow: 5px 5px 5px red; 
+    cursor: pointer; 
+}
+.container{
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+    flex-wrap: wrap; 
+    
+}
+.tigerp{
+    margin-top: 20px;
+    color: red;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+    
+#tigerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black
+
+}
+.tigerp:hover{
+    background-color: black;
+    padding: 10px;
+}
+.card3{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: medium;
+    font-style: oblique;
+    box-shadow: 5px 5px 5px red; 
+    cursor: pointer;
+    margin-left: 20px;
+}
+#eleimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black
+
+}
+.elep{
+    color: red;
+    margin-top: 20px;
+}
+.elep:hover{
+    background-color: black;
+    padding: 10px;
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+#anchor{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+#anch{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+#anc{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+}
